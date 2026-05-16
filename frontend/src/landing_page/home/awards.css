@@ -1,0 +1,15 @@
+
+.press {
+  max-width: 80%;
+  margin: 40px auto;          /* centers the whole section */
+  display: flex;
+  justify-content: center;    /* centers image horizontally */
+}
+
+.press img {
+  height: 2rem;
+  width: 100%;
+  object-fit: contain;
+  opacity: 0.6;
+  filter: grayscale(100%);
+}
